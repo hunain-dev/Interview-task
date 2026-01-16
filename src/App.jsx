@@ -3,6 +3,7 @@ import TodoList from './Interview=beginner/TodoList'
 import Counterapp from './Interview=beginner/Counterapp'
 import PropsDrilling from './Interview=beginner/PropsDrilling'
 import ApiFetching from './Interview-Junior/ApiFetching'
+import Form from './Interview-Junior/Form'
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
       />
     */}
 
-    <ApiFetching/>
+    {/* <ApiFetching/> */}
+    <Form/>
     </div>
   )
 }
